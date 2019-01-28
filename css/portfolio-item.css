@@ -26,3 +26,47 @@ body {
   height: 400px;
   width: 500px;
 }
+.heading2{
+  margin-top: 0px;
+  font-size : 20px; 
+  font-weight: bold;
+}
+.heading3{
+  margin-top: 15px;
+  font-size : 16px; 
+  font-weight: bold;
+}
+.heading4{
+  margin-top: 0px;
+  font-size : 14px; 
+  font-weight: bold;
+  margin-left: 35px;
+}
+.heading5{
+  font-size : 14px; 
+  font-weight: italic;
+}
+/* #profile-heading{
+  margin-left: 0px;
+} */
+#description-left{
+  margin-left: 0px;
+  font-size : 12px; 
+}
+#description{
+  margin-top: 5px;
+  margin-left: 35px;
+  font-size : 12px; 
+}
+#address-link{
+  margin-top: 15px;
+  font-size : 12px; 
+  /* font-weight: bold; */
+  color: black
+}
+.list{
+   list-style-type: none
+  }
+.list-left{
+  font-size : 12px; 
+  }
