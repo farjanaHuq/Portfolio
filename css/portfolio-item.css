@@ -6,12 +6,16 @@
 
 body {
   padding-top: 54px;
+ 
 }
 
 @media (min-width: 992px) {
   body {
     padding-top: 56px;
   }
+}
+#body-index{
+  background-image:   url("../images/webdev.jpg");
 }
 
 .footer,
@@ -83,4 +87,8 @@ body {
 .list-left{
   font-size : 12px; 
   }
+
+  /* #index-div{
+        background-image:   url("../images/webdev.jpg");
+  } */
 
