@@ -88,6 +88,9 @@ body {
   font-size : 12px; 
   }
 
+#card-mongo{
+  background-image: url(../images/mongo2.png);
+}
   /* #index-div{
         background-image:   url("../images/webdev.jpg");
   } */
