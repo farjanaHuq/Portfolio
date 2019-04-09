@@ -12,10 +12,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
-          integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" 
-          integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
 
     <!-- Custom styles for this template -->
     <link href="css/portfolio-item.css" rel="stylesheet">
@@ -51,114 +52,257 @@
     </nav>
 
     <!-- Page Content -->
-      <!-- /.container -->
+    <!-- /.container -->
     <div class="container">
 
         <!-- Portfolio Item Heading -->
-        <h1 class="my-4">Portfolio</h1>
+        <h1 class="my-4" style="font-size:20px">Click on the images to access the applications</h1>
 
         <!-- Portfolio Item Row -->
-
         <div class="row">
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" id="card-memoryGame">
+                    <img class="card-img-top" src="./images/Memory-Game.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Memory-Game</h5>
+                        <p class="card-text">Technologies: React, Mongodb</p>
+                        <div class="card-body" id ="cardBody-button">
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/" class="card-l ink">Heroku link</a> -->
+                        <button class="w3-circle w3-black"><a href="https://farjanahuq.github.io/MemoryGame-React.Js/" class="card-link">Github link</a></button>
+                     </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" id="card-mongo">
+                    <img class="card-img-top" src="./images/mongo1.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Mongo-Cheerio</h5>
+                        <p class="card-text">Technologies: Mongoose, Cheerio, Express, Express-Handlebars, Axios,
+                            Bootstrap</p>
+                        <a href="https://sleepy-dusk-87739.herokuapp.com/" class="card-link">Heroku link</a>
+                        <a href="https://farjanahuq.github.io/Mongo-Cheerio/" class="card-link">Github link</a>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" id="card-FriendFinder">
+                    <img class="card-img-top" src="images/FriendFInder.png" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Friend FInder</h5>
+                        <p class="card-text">Technologies: MVC Pattern, Express-Handlebars, Axios, Bootstrap</p>
+                        <!-- <div class="card-body"> -->
+                        <a href="https://vast-spire-52158.herokuapp.com/" class="card-link">Heroku link</a>
+                        <a href="https://farjanahuq.github.io/FriendFinder/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+
+                </div>
+            </div>
+
             <!-- <div class="col-md-3 col-sm-6 mb-4">
-                    <div class="card" id="card-mongo">
-                            <img class="card-img" src="./images/mongo2.png" alt="Card image">
-                            <div class="card-img-overlay">
-                              <h5 class="card-title">Mongo-Cheerio</h5>
-                              <p class="card-text"><b>Technologies: Mongoose, Cheerio, Express, Express-Handlebars, Axios, Bootstrap</b></p>
-                              <span><a href="https://sleepy-dusk-87739.herokuapp.com/" class="btn btn-primary">Heroku Link</a>
-                              <a href="https://sleepy-dusk-87739.herokuapp.com/" class="btn btn-primary">Github Link</a></span>
-                            </div>
+                    <div class="card"  id="card-Project3">
+                            <img class="card-img-top " src="./images/bamazon.jpg" alt="Card image cap">
+                        <div class="card-body">
+                              <h5 class="card-title">Bamazon</h5>
+                              <p class="card-text"></p>Technologies: MySql, Jquery, Axios, Express</p>
+                              <div class="card-body"> 
+                                    <a href="https://farjanahuq.github.io/bamazon/" class="card-link">Github link</a> 
+                              </div>
+                        </div>
+                          
                     </div>
             </div> -->
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://sleepy-dusk-87739.herokuapp.com/">
-                    <img class="img-fluid" src="images/mongo2.png" alt="">
-                </a>
-            </div>
-           
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://mysterious-journey-53622.herokuapp.com">
-                    <img class="img-fluid" src="images/caringHands.jpg" alt="">
-                </a>
-            </div>
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/bamazon/">
-                    <img class="img-fluid" src="images/bamazon.jpg" alt="">
-                </a>
-            </div>
+            <!-- <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" id="card-EatTheBurger">
+                    <img class="card-img-top" src="" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Eat The Burger</h5>
+                        <p class="card-text"></p>Technologies: Handlebars, MySql, MVC Pattern, Jquery, Axios.</p>
+                        <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <!-- <a href="https://farjanahuq.github.io/Project1/" class="card-link">Github link</a> -->
+                        <!-- </div> -->
+                    <!-- </div> -->
 
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://vast-spire-52158.herokuapp.com/">
-                    <img class="img-fluid" src="images/FriendFInder.png" alt="">
-                </a>
+                <!-- </div> -->
+            <!-- </div> --> 
+
+        <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" id="card-WordGuessGame">
+                    <img class="card-img-top" src="./images/WordGuessGame.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Word Guess Game</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Axios.
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <a href="https://farjanahuq.github.io/Word-Guess-Game/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+                </div>
             </div>
-
-           
-
+        </div>
         </div>
 
         <div class="row">
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/Project1/">
-                    <img class="img-fluid" src="./images/EventPlanner.jpg" alt="">
-                </a>
+                <div class="card" id="card-project2">
+                    <img class="card-img-top" src="./images/caringHands.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project2: Caring Hands</h5>
+                        <p class="card-text"></p>Technologies: JWT,Jquery, Axios, Bootstrap, HTML, CSS, SendGrid Email.
+                        </p>
+                        <!-- <div class="card-body"> -->
+                        <a href="https://sleepy-dusk-87739.herokuapp.com/" class="card-link">Heroku link</a>
+                        <a href="https://sleepy-dusk-87739.herokuapp.com/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+
+                </div>
+            </div>
+
+
+            <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" id="card-bamazon">
+                    <img class="card-img-top " src="./images/bamazon.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Bamazon</h5>
+                        <p class="card-text"></p>Technologies: MySql, Jquery, Axios, Express</p>
+                        <!-- <div class="card-body"> -->
+                        <a href="https://farjanahuq.github.io/bamazon/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+                </div>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="#">
-                    <img class="img-fluid" src="./images/StarWarRPGGame.jpg" alt="">
-                </a>
-            </div>
+                <div class="card" id="card-LiriNode">
+                    <img class="card-img-top" src="./images/Liri_Fotor.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Liri-node-app</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Axios,REST API.</p>
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <a href="https://farjanahuq.github.io/Liri-node-app/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
 
+                </div>
+            </div>
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/Liri-node-app/">
-                    <img class="img-fluid" src="./images/Liri_Fotor.jpg" alt="">
-                </a>
+                <div class="card" id="card-project1">
+                    <img class="card-img-top" src="./images/StarWarRPGGame.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Star Wars RPG Game</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Axios, Bootstrap, HTML, CSS.
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <a href="https://farjanahuq.github.io/Star-War-RPG-Game/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+    
+                </div>
             </div>
-
-            <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/TrainSchedule/.">
-                    <img class="img-fluid" src="./images/Train Schedule.jpg" alt="">
-                </a>
-            </div>
-
 
         </div>
-        <!-- /.row -->
+
+       
+      
 
         <div class="row">
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/TriviaGame/">
-                    <img class="img-fluid" src="./images/Trivia Game.jpg" alt="">
-                </a>
+                <div class="card" id="card-trainSchedule">
+                    <img class="card-img-top" src="./images/Train Schedule.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Train Schedule</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Axios, Momennt Js.
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <a href="https://farjanahuq.github.io/TrainSchedule/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+                </div>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/unit-4-game/">
-                    <img class="img-fluid" src="./images/CrystalCollector.jpg" alt="">
-                </a>
+                <div class="card" id="card-Trivia-Game">
+                    <img class="card-img-top" src="./images/Trivia Game.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Trivia-Game</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Bootstrap, HTML, CSS.
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <a href="https://farjanahuq.github.io/TriviaGame/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+
+                </div>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/Giftastic/">
-                    <img class="img-fluid" src="./images/GifTastic.jpg" alt="">
-                </a>
+                <div class="card" id="card-LiriNode">
+                    <img class="card-img-top" src="./images/CrystalCollector.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Crystal Collector</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Axios, HTML, css.</p>
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <a href="https://farjanahuq.github.io/unit-4-game/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+
+                </div>
             </div>
 
             <div class="col-md-3 col-sm-6 mb-4">
-                <a href="https://farjanahuq.github.io/Word-Guess-Game/">
-                    <img class="img-fluid" src="./images/WordGuessGame.jpg" alt="">
-                </a>
+                <div class="card" id="card-project1">
+                    <img class="card-img-top" src="./images/EventPlanner.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Project1 : EventPlanner</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Axios, Google Map API, Twitter API,
+                        Weather Map API, Seat Geek API, Bootstrap.</p>
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <a href="https://farjanahuq.github.io/Project1/" class="card-link">Github link</a>
+                        <!-- </div> -->
+                    </div>
+
+                </div>
             </div>
+
 
         </div>
+
         <!-- /.row -->
+        <div class="row">
+ 
+          
+
+<!-- 
+        <div class="col-md-3 col-sm-6 mb-4">
+                <div class="card" id="card-WordGuessGame">
+                    <img class="card-img-top" src="./images/WordGuessGame.jpg" alt="Card image cap">
+                    <div class="card-body">
+                        <h5 class="card-title">Word Guess Game</h5>
+                        <p class="card-text"></p>Technologies: Jquery, Axios.
+                        <!-- <div class="card-body"> -->
+                        <!-- <a href="https://sleepy-dusk-87739.herokuapp.com/"  class="card-link">Heroku link</a> -->
+                        <!-- <a href="https://farjanahuq.github.io/Word-Guess-Game/" class="card-link">Github link</a> -->
+                        <!-- </div> -->
+                    <!-- </div>
+                </div>
+            </div>
+        </div>  -->
 
         <div class="push"></div>
-      
+
     </div>
 
     <!-- Footer -->

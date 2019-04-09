@@ -88,10 +88,21 @@ body {
   font-size : 12px; 
   }
 
-#card-mongo{
-  background-image: url(../images/mongo2.png);
+.card{
+   width: 250px;
+   height: 350px;
+   background-color:#5F9EA0;
+   margin-right: 10px;
+   border: 1px, solid, black;
+   box-shadow: 3px 5px #444446;
 }
   /* #index-div{
         background-image:   url("../images/webdev.jpg");
   } */
 
+.card-img-top{
+  width:250px;
+  height:150px;
+  margin-top: 3px;
+  border: 1px, solid, black;
+}
